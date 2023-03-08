@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5c203b32.css",
-    "main.js": "/portfolio/static/js/main.888fe2fa.js",
+    "main.js": "/portfolio/static/js/main.eef0716e.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/rapport.pdf": "/portfolio/static/media/rapport.f99e48c6eff4dcacabef.pdf",
     "static/media/restaurant.png": "/portfolio/static/media/restaurant.735db08a90a475ed9100.png",
-    "static/media/cvrayen.pdf": "/portfolio/static/media/cvrayen.b87d48c32d5ac892d987.pdf",
+    "static/media/cvrayen2.pdf": "/portfolio/static/media/cvrayen2.b87d48c32d5ac892d987.pdf",
     "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -15,12 +15,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
     "main.5c203b32.css.map": "/portfolio/static/css/main.5c203b32.css.map",
-    "main.888fe2fa.js.map": "/portfolio/static/js/main.888fe2fa.js.map",
+    "main.eef0716e.js.map": "/portfolio/static/js/main.eef0716e.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c203b32.css",
-    "static/js/main.888fe2fa.js"
+    "static/js/main.eef0716e.js"
   ]
 }
