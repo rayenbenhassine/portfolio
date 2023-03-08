@@ -16,40 +16,27 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              JE ME<span className="purple">  PRÉSENTE </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Je suis tombé amoureux de la programmation et je pense que c'est sérieux.  🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />Mes amis me trouvent bizarre parce que je parle souvent de langages de programmation comme s'ils étaient des personnes réelles. Je suis capable de programmer couramment en
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Java, Javascript et Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Mais mon véritable amour est
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">Node.js  </b> et les frameworks JavaScript modernes.
               </i>
+              J'aime tellement ça que je pourrais passer des heures à coder sans même me rendre compte que j'ai oublié de manger.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Je suis tellement passionné par la création de  <i>
+                <b className="purple"> nouveaux produits Web </b>
+              </i> que j'ai commencé à avoir des rêves de syntaxe de code. Mais ne vous inquiétez pas, je ne suis pas totalement fou. Enfin, pas encore.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,14 +47,12 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>TROUVEZ-MOI SUR</h1>
+           
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/rayenbenhassine"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +62,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://linkedin.com/in/rayen-ben-hassine/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,17 +70,10 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
             </ul>
+            <p>
+            N'hésitez pas à me <span className="purple">contacter </span>
+            </p>
           </Col>
         </Row>
       </Container>

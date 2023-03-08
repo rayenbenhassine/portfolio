@@ -1,94 +1,80 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import restaurant from "../../Assets/Projects/restaurant.png";
+import opuswebsite from "../../Assets/Projects/opuswebsite.png";
+import opuslabelearning from "../../Assets/Projects/opuslabelearning.png";
+import pdf from "../../Assets/rapport.pdf"
+import { BsGithub } from "react-icons/bs";
+import { DiAndroid, DiCss3, DiHtml5, DiMongodb, DiNodejs, DiPhp, DiReact } from "react-icons/di";
+import { SiExpress, SiNextdotjs, SiStrapi, SiTailwindcss } from "react-icons/si";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+      
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+           <strong className="purple">Mes projets </strong> récents
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Voici quelques projets sur lesquels j'ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={opuswebsite}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Opus Lab website"
+              description="Ce site web permet aux visiteurs de consulter facilement les différents cours proposés par la société, avec des descriptions détaillées de chaque cours et des informations sur les horaires, les tarifs et les prérequis. Les visiteurs peuvent également préinscrire à un cours directement sur le site, en fournissant des informations de base sur leur profil et leur intérêt pour le cours. Cette fonctionnalité de préinscription permet à la société de mieux planifier ses cours en fonction de la demande, et permet aux visiteurs de s'assurer une place dans un cours avant qu'il ne soit complet."
+              demoLink="https://www.opuslab.tn/"
+              icons={
+                [<SiNextdotjs/>, <SiStrapi />]
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={opuslabelearning}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Opus Lab e-learning plateform"
+              description="En tant que projet de fin d'étude, notre plateforme de formation en compétences numériques vise à offrir une expérience d'apprentissage de qualité en proposant un contenu riche et un suivi continu. Nous avons introduit le concept de la gamification, où les étudiants peuvent gagner des points et des récompenses à mesure qu'ils progressent dans leur apprentissage. Nous encourageons également l'interaction entre les étudiants et les instructeurs en fournissant un forum de discussion où ils peuvent échanger des idées et poser des questions. Enfin, notre plateforme permet aux instructeurs de suivre facilement l'avancement des étudiants et de fournir un feedback constructif pour améliorer leur apprentissage."
+              rapport={pdf}
+              icons={
+                [<DiReact/>,<SiExpress />,<DiMongodb />, <SiTailwindcss />]
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={restaurant}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Live dinner restaurant"
+              description="C'est un site web de gestion de réservation de table pour restaurant offre une solution simple et efficace pour les restaurateurs et les clients. Grâce à une interface conviviale, les clients peuvent facilement réserver une table en ligne, avec des options pour spécifier le nombre de personnes, l'heure et les préférences alimentaires. Les restaurateurs peuvent également gérer facilement les réservations à l'aide de notre tableau de bord administrateur, qui permet de gérer les réservations, de visualiser les données de réservation et de communiquer avec les clients."
+              ghLink="https://github.com/rayenbenhassine/Restaurant-App-php"
+              icons={
+                [<DiHtml5 />,<DiCss3 /> ,<DiPhp/>]
+              }
             />
           </Col>
         </Row>
+          
+        
       </Container>
+      <Button
+          variant="primary"
+          href="https://github.com/rayenbenhassine"
+          target="_blank"
+          style={{ padding: "30px", fontSize : "20px", cursor : "pointer" }}
+        >
+          <BsGithub style={{ fontSize : "30px" }}/> &nbsp;
+          Voir plus sur GitHub
+      </Button>
+      <Particle />
+
     </Container>
   );
 }

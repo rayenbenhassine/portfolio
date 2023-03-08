@@ -1,12 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiGit } from "react-icons/di";
 import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
 } from "react-icons/si";
+import { AiFillGitlab } from "react-icons/ai";
+
 
 function Toolstack() {
   return (
@@ -21,10 +23,10 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <AiFillGitlab />
       </Col>
     </Row>
   );
