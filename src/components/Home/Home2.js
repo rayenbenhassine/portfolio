@@ -71,6 +71,15 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <a
+                  href="mailto:rayenbenhassine@gmail.com"
+                  style={{display : "block", color : "white"}}
+                >
+                  rayenbenhassine@gmail.com
+            </a>
+            <p>
+              +33 06 29 66 32 86
+            </p>
             <p>
             N'hésitez pas à me <span className="purple">contacter </span>
             </p>

@@ -39,7 +39,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
+        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
           <strong className="main-name"> RBH. </strong>
+        </Nav.Link>
 
         </Navbar.Brand>
         <Navbar.Toggle
