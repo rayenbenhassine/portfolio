@@ -40,7 +40,7 @@ function Projects() {
               imgPath={opuslabelearning}
               isBlog={false}
               title="Opus Lab e-learning plateform"
-              description="En tant que projet de fin d'étude, notre plateforme de formation en compétences numériques vise à offrir une expérience d'apprentissage de qualité en proposant un contenu riche et un suivi continu. Nous avons introduit le concept de la gamification, où les étudiants peuvent gagner des points et des récompenses à mesure qu'ils progressent dans leur apprentissage. Nous encourageons également l'interaction entre les étudiants et les instructeurs en fournissant un forum de discussion où ils peuvent échanger des idées et poser des questions. Enfin, notre plateforme permet aux instructeurs de suivre facilement l'avancement des étudiants et de fournir un feedback constructif pour améliorer leur apprentissage."
+              description="Opus Lab platform est une plateforme de formation en compétences numériques vise à offrir une expérience d'apprentissage de qualité en proposant un contenu riche et un suivi continu. Les étudiants peuvent gagner des points et des récompenses au fur et à mesure qu'ils progressent dans leur apprentissage. Nous encourageons également l'interaction entre les étudiants et les instructeurs en fournissant un forum de discussion où ils peuvent échanger des idées et poser des questions. Enfin, la plateforme permet aux instructeurs de suivre facilement l'avancement des étudiants et de fournir un feedback constructif pour améliorer leur apprentissage."
               rapport={pdf}
               icons={
                 [<DiReact/>,<SiExpress />,<DiMongodb />, <SiTailwindcss />]
