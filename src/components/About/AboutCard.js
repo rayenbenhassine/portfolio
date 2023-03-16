@@ -9,7 +9,6 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
           Bonjour à tous, Je suis <span className="purple">Rayene BEN HASSINE </span>
-            de <span className="purple"> Tunis, Tunisie.</span>
             <br />Je suis développeur junior et étudiant en cycle ingénieur en informatique à Sup-Galilée, université Sorbonne Paris Nord.
             <br />
             <br />
