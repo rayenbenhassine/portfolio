@@ -48,9 +48,9 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>TROUVEZ-MOI SUR</h1>
-           
+
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://github.com/rayenbenhassine"
                   target="_blank"
@@ -59,7 +59,7 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://linkedin.com/in/rayen-ben-hassine/"
@@ -72,16 +72,16 @@ function Home2() {
               </li>
             </ul>
             <a
-                  href="mailto:rayenbenhassine@gmail.com"
-                  style={{display : "block", color : "white"}}
-                >
-                  rayenbenhassine@gmail.com
+              href="mailto:rayenbenhassine@gmail.com"
+              style={{ display: "block", color: "white" }}
+            >
+              rayenbenhassine@gmail.com
             </a>
             <p>
               +33 06 29 66 32 86
             </p>
             <p>
-            N'hésitez pas à me <span className="purple">contacter </span>
+              N'hésitez pas à me <span className="purple">contacter </span>
             </p>
           </Col>
         </Row>

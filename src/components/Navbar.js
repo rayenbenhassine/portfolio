@@ -39,9 +39,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-          <strong className="main-name"> RBH. </strong>
-        </Nav.Link>
+          <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+            <strong className="main-name"> RBH. </strong>
+          </Nav.Link>
 
         </Navbar.Brand>
         <Navbar.Toggle
@@ -72,7 +72,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -83,7 +83,7 @@ function NavBar() {
                 />{" "}
                 Projets
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
@@ -94,9 +94,12 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> CV
               </Nav.Link>
             </Nav.Item>
+
+
             <Nav.Item>
               <Nav.Link
-                href="mailto:rayenbenhassine@gmail.com"
+                as={Link}
+                to="/contact"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
@@ -104,7 +107,7 @@ function NavBar() {
             </Nav.Item>
 
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/rayenbenhassine"
                 target="_blank"
@@ -113,7 +116,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -8,6 +8,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiMysql,
   DiJava,
 } from "react-icons/di";
 import {
@@ -16,6 +17,9 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiPhp,
+  SiTypescript,
+  SiPostgresql,
+  SiMysql
 } from "react-icons/si";
 
 function Techstack() {
@@ -25,19 +29,16 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
@@ -46,10 +47,13 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp />
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
     </Row>
   );
